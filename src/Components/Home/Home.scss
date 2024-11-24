@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #2b2b2b;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background: #2b2b2b;
+    color: rgb(226, 222, 222);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidebar-header {
+    margin-bottom: 20px;
+  }
+  
+  .nav-item {
+    .icon{
+      color: var(--whiteColor);
+      margin-right: 0.5rem;
+      font-size: 1.2rem;
+  }
+    margin: 10px 0;
+    cursor: pointer;
+    background: #f3f3f3;
+   background-size: 50px;
+   padding-left: 20px;
+   border-radius: 20px;
+   align-content: center;
+   background-color:rgb(92, 91, 91);
+   padding: 0.8rem 1rem;
+   border-radius: 8px;
+   box-shadow: 0px 4px 10px rgba(184, 12, 12, 0.1);
+   
+  }
+  
+  .nav-item.active {
+    font-weight: bold;
+    background: blue;
+  }
+  
+  .account-section {
+    margin-top: auto; 
+  }
+  .account-button:hover{
+    background: #f14612;
+    transition: .3s ease;
+
+    
+  }
+  
+  .account-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius:25px;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background: #0f0f0f;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    width: 80%;
+   
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #0f0f0f;
+    border-color: #f3f3f3;
+  }
+  
+  .send-file-button {
+   margin-left: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    background: rgb(93, 171, 243);
+  }
+  
+  .content-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .draft-section, .add-receiver-section, .recent-shared-section {
+    background: rgb(228, 226, 226);
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+  }
+
+  .resend-button {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .receiver {
+    margin: 10px 0;
+  }
+  
